@@ -82,11 +82,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * ,-----------------------------------------------------------------------------------.
  * | Esc  |   1  |   2  |   3  |   4  |   5  |   6  | vDown| vUp  | play  |Lower|Raise |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
- * |  Tab |   q  |   w  |   e  |   r  |   t  |  mb1 |  mu   |  mb2   |     |     |     Bksp  |
+ * |  Tab |   q  |   w  |   e  |   r  |   t  |  mb1 |  mu  |  mb2 |   nm  | nm  |Bksp  |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
- * | Shift|   a  |   s  |   d  |   f  |   g  |  ml  |   md  |  mr   |CtrlR |   Up  |  Enter|
+ * | Shift|   a  |   s  |   d  |   f  |   g  |  ml  |   md |  mr  |CtrlR |  Up |  Enter|
  * |------+------+------+------+------+------+------+------+------+------+------+------|
- * | CtrlL|    z  |   x  |   c  |   v  |space | mwu | mb3   |  mwd   | Left |  Down  |Right |
+ * | CtrlL|    z  |   x  |   c  |   v  |space | mwu | mb3  |  mwd | Left | Down| Right |
  * `-----------------------------------------------------------------------------------'
  */
 [_GAMING] = LAYOUT_planck_grid(
